@@ -1,0 +1,31 @@
+* {
+  font-family: Helvetica;
+  color: #3e5560;
+}
+
+.title {
+  color: rgb(4, 73, 111);
+  text-align: center;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.movie {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+img {
+  width: 300px;
+  height: 280px;
+}
+
+a {
+  text-decoration: none;
+}

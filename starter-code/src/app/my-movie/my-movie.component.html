@@ -1,0 +1,18 @@
+
+<section class="main">
+
+  <div class="thumb">
+    <img [src]="movie.poster" />
+    <button (click)="goHome()"><h1>HOME</h1></button>
+  </div>
+  <div>
+    <h1>Room: {{movie.id}}</h1>
+    <h4>Title: {{movie.title}}</h4>
+    <h4>Directed by: {{movie.director}}</h4>
+    <h4>Year: {{movie.year}}</h4>
+    <h4 class="syno">Synopsis: {{movie.synopsis}}</h4>
+    <h4>Cast: {{movie.actors.join(" ")}}</h4>
+
+  </div>
+
+</section>

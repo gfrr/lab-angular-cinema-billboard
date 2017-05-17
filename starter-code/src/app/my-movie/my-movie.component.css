@@ -1,0 +1,52 @@
+* {
+  font-family: Helvetica;
+  color: #3e5560;
+}
+
+
+
+.main {
+  margin: 80px 100px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+
+}
+
+.movie {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.syno {
+  text-align:justify;
+  width: 50%;
+}
+
+.thumb {
+  display: flex;
+
+  justify-content: flex-start;
+  flex-flow: column;
+}
+button {
+
+  height: 100px;
+  width: 400px;
+  background: #3e5560;
+
+}
+
+button h1 {
+  color: rgb(255, 100, 100);
+}
+
+img {
+  width: 400px;
+  height: 350px;
+}
+
+a {
+  text-decoration: none;
+}

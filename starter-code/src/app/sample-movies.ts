@@ -92,3 +92,5 @@ const movies: Object[] = [
     ]
   }
 ]
+
+export default movies;

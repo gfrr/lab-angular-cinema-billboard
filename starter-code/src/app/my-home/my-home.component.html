@@ -1,0 +1,12 @@
+
+
+<div class="main">
+  <div class="movie" *ngFor="let movie of cinemaMovies.movies;let i = index;">
+    <h4>
+      Room {{i+1}}
+    </h4>
+    <img [src]="movie.poster" />
+    <a [routerLink]="['/movie/'+movie.id]"><h3>{{movie.title}}</h3></a>
+
+  </div>
+</div>
