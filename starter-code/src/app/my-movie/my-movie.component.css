@@ -3,7 +3,26 @@
   color: #3e5560;
 }
 
+button {
 
+  height: 100px;
+  width: 380px;
+  background: #3e5560;
+
+}
+
+button h1 {
+  color: rgb(255, 100, 100);
+}
+
+img {
+  width: 380px;
+  height: 350px;
+}
+
+a {
+  text-decoration: none;
+}
 
 .main {
   margin: 80px 100px;
@@ -29,24 +48,4 @@
 
   justify-content: flex-start;
   flex-flow: column;
-}
-button {
-
-  height: 100px;
-  width: 400px;
-  background: #3e5560;
-
-}
-
-button h1 {
-  color: rgb(255, 100, 100);
-}
-
-img {
-  width: 400px;
-  height: 350px;
-}
-
-a {
-  text-decoration: none;
 }

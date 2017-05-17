@@ -3,9 +3,13 @@
   color: #3e5560;
 }
 
-.title {
-  color: rgb(4, 73, 111);
-  text-align: center;
+img {
+  width: 300px;
+  height: 280px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .main {
@@ -19,13 +23,4 @@
   text-align: center;
   display: flex;
   flex-flow: column;
-}
-
-img {
-  width: 300px;
-  height: 280px;
-}
-
-a {
-  text-decoration: none;
 }
