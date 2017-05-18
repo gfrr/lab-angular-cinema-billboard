@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+import movies from '../sample-movies';
+
 
 @Injectable()
 export class CinemaService {
@@ -11,6 +13,8 @@ export class CinemaService {
   getMovie(id:number): Object {
     return this.movies.filter((movie)=> movie["id"] == id)[0];
   }
-  constructor() { }
+  constructor() {
+    this.movies = movies;
+   }
 
 }
